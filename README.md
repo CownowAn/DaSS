@@ -33,7 +33,7 @@ $ bash script/run_meta_train.sh [GPU_NUM]
 # bash script/run_search.sh [GPU_NUM]
 ```
 
-## Knowledge distillation for searched student on target unseen dataset
+## Knowledge distillation (KD) for searched student on target unseen dataset
 ```
 $ bash script/run_kd.sh GPU_NUM DATASET_NAME
 $ bash script/run_kd.sh 0 cub
